@@ -1,0 +1,13 @@
+'use strict';
+
+var db = require('../config.js');
+//var bcrypt = require('bcrypt-nodejs');
+//var User = require('/user.js');
+
+var User = db.Model.extend({
+	tableName: 'users',
+	hasTimestamps: true
+});
+
+module.exports = User;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NlcnZlci9tb2RlbC91c2VyLmpzIl0sIm5hbWVzIjpbImRiIiwicmVxdWlyZSIsIlVzZXIiLCJNb2RlbCIsImV4dGVuZCIsInRhYmxlTmFtZSIsImhhc1RpbWVzdGFtcHMiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiOztBQUFBLElBQUlBLEtBQUtDLFFBQVEsY0FBUixDQUFUO0FBQ0E7QUFDQTs7QUFFQSxJQUFJQyxPQUFPRixHQUFHRyxLQUFILENBQVNDLE1BQVQsQ0FBZ0I7QUFDMUJDLFlBQVcsT0FEZTtBQUUxQkMsZ0JBQWU7QUFGVyxDQUFoQixDQUFYOztBQUtBQyxPQUFPQyxPQUFQLEdBQWtCTixJQUFsQiIsImZpbGUiOiJ1c2VyLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIGRiID0gcmVxdWlyZSgnLi4vY29uZmlnLmpzJyk7XG4vL3ZhciBiY3J5cHQgPSByZXF1aXJlKCdiY3J5cHQtbm9kZWpzJyk7XG4vL3ZhciBVc2VyID0gcmVxdWlyZSgnL3VzZXIuanMnKTtcblxudmFyIFVzZXIgPSBkYi5Nb2RlbC5leHRlbmQoe1xuXHR0YWJsZU5hbWU6ICd1c2VycycsXG5cdGhhc1RpbWVzdGFtcHM6IHRydWVcbn0pO1xuXG5tb2R1bGUuZXhwb3J0cyA9ICBVc2VyOyJdfQ==
